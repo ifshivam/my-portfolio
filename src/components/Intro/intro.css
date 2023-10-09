@@ -1,5 +1,5 @@
 #intro{
-    height:  calc(100vh-5rem);
+    height:  calc(100vh - 5rem);
     width: 90vw;
     margin: 0 auto;
     overflow: hidden;
@@ -35,6 +35,7 @@
     font-size: medium;
     font-weight: 300;
     width: 45%;
+    letter-spacing: 0.3px;
 }
 .btn{
     background: white;
@@ -47,4 +48,26 @@
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1rem;
+}
+@media screen and (max-width:840px) {
+    .bg{
+        opacity: 0.7;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+}
+@media screen and (max-width:480px) {
+    #intro{
+        width: 100vw;
+    }
+    
+    .bg{ 
+        right: -5vh;
+        opacity: 0.4;
+
+    }
+    .introContent{
+        font-size: 10vw;
+    }
 }
