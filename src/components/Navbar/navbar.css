@@ -13,7 +13,12 @@
 .logo{
     object-fit: cover;
     height: 3rem;
-    width: 4rem;
+    width: 3rem;
+    border-radius: 50%;
+    border-bottom: solid 4px white;
+}
+.logo:hover{
+    border-bottom: solid 4px darkolivegreen;
 }
 .desktopMenuListItem{
     margin: 1rem;
